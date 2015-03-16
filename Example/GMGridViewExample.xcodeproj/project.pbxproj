@@ -11,6 +11,8 @@
 		16924B0C144156FE00E6E556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16924B0B144156FE00E6E556 /* UIKit.framework */; };
 		16924B0E144156FE00E6E556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16924B0D144156FE00E6E556 /* Foundation.framework */; };
 		16924B10144156FE00E6E556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16924B0F144156FE00E6E556 /* CoreGraphics.framework */; };
+		50E143E91AB68895008CDEF0 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E143E81AB68895008CDEF0 /* Demo3ViewController.m */; };
+		50E143ED1AB688AB008CDEF0 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E143EC1AB688AB008CDEF0 /* TextField.m */; };
 		785092D4149FABAC000787E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 785092CF149FABAC000787E4 /* AppDelegate.m */; };
 		785092D5149FABAC000787E4 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785092D1149FABAC000787E4 /* Demo1ViewController.m */; };
 		785092D6149FABAC000787E4 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785092D3149FABAC000787E4 /* Demo2ViewController.m */; };
@@ -43,6 +45,10 @@
 		16924B0B144156FE00E6E556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16924B0D144156FE00E6E556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16924B0F144156FE00E6E556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50E143E81AB68895008CDEF0 /* Demo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
+		50E143EA1AB688AB008CDEF0 /* Demo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		50E143EB1AB688AB008CDEF0 /* TextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		50E143EC1AB688AB008CDEF0 /* TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
 		785092CE149FABAC000787E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		785092CF149FABAC000787E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		785092D0149FABAC000787E4 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -77,6 +83,10 @@
 		16924AFC144156FD00E6E556 = {
 			isa = PBXGroup;
 			children = (
+				50E143EA1AB688AB008CDEF0 /* Demo3ViewController.h */,
+				50E143E81AB68895008CDEF0 /* Demo3ViewController.m */,
+				50E143EB1AB688AB008CDEF0 /* TextField.h */,
+				50E143EC1AB688AB008CDEF0 /* TextField.m */,
 				16924B11144156FE00E6E556 /* Demo */,
 				16955520146FA80200DECCA6 /* Resources */,
 				16924B0A144156FE00E6E556 /* Frameworks */,
@@ -229,7 +239,9 @@
 			files = (
 				785092D4149FABAC000787E4 /* AppDelegate.m in Sources */,
 				785092D5149FABAC000787E4 /* Demo1ViewController.m in Sources */,
+				50E143ED1AB688AB008CDEF0 /* TextField.m in Sources */,
 				785092D6149FABAC000787E4 /* Demo2ViewController.m in Sources */,
+				50E143E91AB68895008CDEF0 /* Demo3ViewController.m in Sources */,
 				785092DB149FABB6000787E4 /* main.m in Sources */,
 				7850936A149FADB4000787E4 /* OptionsViewController.m in Sources */,
 			);
